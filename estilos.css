@@ -8,7 +8,8 @@ body ,html{
     width: 100%;
     height: 100%;
     display:grid;
-    grid-auto-rows:40px 200px 200px 220px 203px;
+    justify-content:center;
+    grid-template-rows:20px 180px 200px 200px 168px;
         grid-template-areas:
             "banner"
             "header"
@@ -28,7 +29,7 @@ body ,html{
 
 }
 nav{
-    gap:50px;
+    gap:20px;
     font-size: 18px;
     text-decoration: none;
     display: flex;
@@ -61,7 +62,7 @@ a:hover{
     justify-content:center;
 }
 #logo{
-    width: 170px;
+    width: 160px;
     box-shadow: 10px 5px 5px black;
     border-radius: 200px;
 }
@@ -100,16 +101,16 @@ a:hover{
 }
 
 #ima1{
-    width: 100px;
-    height: 160px;
+    width: 110px;
+    height: 130px;
     position: relative;
     left: 90px;
     
 } 
 #ima2 {
-    width: 100px;
-    height: 180px;
-    margin: 0 10px;
+    width: 80px;
+    height: 150px;
+    margin: 0 50px;
 }
 /*finaliza el contenedor qs*/
 
@@ -128,8 +129,8 @@ a:hover{
     grid:galeria;
 }
 .box1{
-    width: 22%;
-    height: 60%;
+    width: 18%;
+    height: 50%;
     background-color:blue;
     background-image: url(img/6df9ecf6-872a-43ce-9415-68d4c123e3da.jpg);
     background-repeat: no-repeat;
@@ -137,8 +138,8 @@ a:hover{
     background-size: 100% 100%;
 }
 .box2 {
-    width: 22%;
-    height: 60%;
+    width: 18%;
+    height: 50%;
     background-color:red;
     background-image: url(img/6d61b2ea-9e71-42da-9f6e-636d70c35201.jpg);
     background-repeat: no-repeat;
@@ -146,8 +147,8 @@ a:hover{
     background-size: 100% 100%;
 }
 .box3 {
-    width: 22%;
-    height: 60%;
+    width: 18%;
+    height: 50%;
     background-color:green;
     background-image: url(img/03037387-6ad9-4bd0-bf8a-5f774f10a4b7.jpg);
     background-repeat: no-repeat;
@@ -155,8 +156,8 @@ a:hover{
     background-size: 100% 100%;
 }
 .box4 {
-    width: 22%;
-    height: 60%;
+    width: 18%;
+    height: 50%;
     background-color:violet;
     background-image: url(img/3048539b-dadb-40e7-9699-d7d4510180d0.jpg);
     background-repeat: no-repeat;
@@ -185,20 +186,20 @@ a:hover{
     align-items: center;
 }
 #im1 {
-    width: 180px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     position: relative;
-    right: 90px;
+    right: 80px;
 }
 #im2{
-    width: 170px;
-    height:170px;
-    margin-left:40px;
+    width: 150px;
+    height:150px;
+    margin-left:10px;
 
 }
 .texto2 {
     width: 100%;
-    height: 50%;
+    height: 100%;
 }
 
 #p2 {
@@ -209,7 +210,7 @@ a:hover{
 }
 /*finaliza menu*/
 
-/*inicio de tamaño para cel*/
+/*inicio de tamaño para tablet*/
 @media (min-width: 800px){
     html, body{
         background-color: bisque;
