@@ -82,11 +82,12 @@ a:hover{
 .texto1 {
     width: 50%;
     height: 50%;
+    margin-left:10px;
 }
 
 #p1{
-    width: 100%;
-    font-size: 15px;
+    width: 70%;
+    font-size: 13px;
     text-align: center;
     margin: 0 10px;
 }
@@ -189,12 +190,12 @@ a:hover{
     width: 100px;
     height: 100px;
     position: relative;
-    right: 80px;
+    right: 70px;
 }
 #im2{
-    width: 150px;
-    height:150px;
-    margin-left:10px;
+    width: 120px;
+    height:130px;
+    margin-left:20px;
 
 }
 .texto2 {
