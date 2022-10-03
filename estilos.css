@@ -215,7 +215,7 @@ a:hover{
         background-color: bisque;
     }
     .container{
-        width: 100%;
+        width: 80%;
         margin:auto;
         grid-auto-rows: 50px 350px 350px 420px 330px;
         grid-template-areas:
