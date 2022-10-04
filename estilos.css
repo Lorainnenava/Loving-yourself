@@ -101,7 +101,7 @@ a:hover{
 }
 
 #ima1{
-    width: 100px;
+    width: 150px;
     height: 130px;
     position: relative;
     left: 60px;
@@ -129,8 +129,8 @@ a:hover{
     grid:galeria;
 }
 .box1{
-    width: 20%;
-    height: 50%;
+    width: 22%;
+    height: 55%;
     background-color:blue;
     background-image: url(img/6df9ecf6-872a-43ce-9415-68d4c123e3da.jpg);
     background-repeat: no-repeat;
@@ -138,8 +138,8 @@ a:hover{
     background-size: 100% 100%;
 }
 .box2 {
-    width: 20%;
-    height: 50%;
+    width: 22%;
+    height: 55%;
     background-color:red;
     background-image: url(img/6d61b2ea-9e71-42da-9f6e-636d70c35201.jpg);
     background-repeat: no-repeat;
@@ -147,8 +147,8 @@ a:hover{
     background-size: 100% 100%;
 }
 .box3 {
-    width: 20%;
-    height: 50%;
+    width: 22%;
+    height: 55%;
     background-color:green;
     background-image: url(img/03037387-6ad9-4bd0-bf8a-5f774f10a4b7.jpg);
     background-repeat: no-repeat;
@@ -156,8 +156,8 @@ a:hover{
     background-size: 100% 100%;
 }
 .box4 {
-    width: 20%;
-    height: 50%;
+    width: 22%;
+    height: 55%;
     background-color:violet;
     background-image: url(img/3048539b-dadb-40e7-9699-d7d4510180d0.jpg);
     background-repeat: no-repeat;
@@ -189,7 +189,7 @@ a:hover{
     width: 100px;
     height: 100px;
     position: relative;
-    right: 70px;
+    right: 60px;
 }
 #im2{
     width: 120px;
@@ -247,7 +247,7 @@ a:hover{
         text-align: center;
         margin-left:50px;
         }
-
+        /*imagenes*/
         #ima1 {
             width: 250px;
             height: 230px;
@@ -273,6 +273,46 @@ a:hover{
             margin-left: 20px;
     
         }
+        /*frases imagenes*/
+        .box1 {
+            width: 22%;
+            height: 70%;
+            background-color: blue;
+            background-image: url(img/6df9ecf6-872a-43ce-9415-68d4c123e3da.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+        }
+    
+        .box2 {
+            width: 22%;
+            height: 70%;
+            background-color: red;
+            background-image: url(img/6d61b2ea-9e71-42da-9f6e-636d70c35201.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+        }
+    
+        .box3 {
+            width: 22%;
+            height: 70%;
+            background-color: green;
+            background-image: url(img/03037387-6ad9-4bd0-bf8a-5f774f10a4b7.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+        }
+    
+        .box4 {
+            width: 22%;
+            height: 70%;
+            background-color: violet;
+            background-image: url(img/3048539b-dadb-40e7-9699-d7d4510180d0.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+        }
 
 }
 /*finaliza tamaño para tablet*/
@@ -294,6 +334,7 @@ a:hover{
             "galeria"
             "menu";
     }
+    /*frases imagenes*/
         .box1 {
             width: 22%;
             height: 80%;
@@ -334,3 +375,4 @@ a:hover{
             background-size: 100% 100%;
         }
 }
+/*finaliza tamaño para pc*/
