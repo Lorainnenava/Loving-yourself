@@ -320,7 +320,8 @@ a:hover{
 @media (min-width: 1280px) {
     html,
     body {
-        width: 100%;
+        width: 80%;
+        background-color: beige;
         margin: auto;
     }
 
